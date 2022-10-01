@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 12 256GB Black",
+      "description": "Like new, I used it for about 3 months. Comes with a charger",
+      "imageSource": "https://img.yad2.co.il/Pic/202209/03/3_0/o/y2_1_02557_20220903221637.jpeg?l=5&c=1&w=1024&h=768.jpeg",
+      "price": 2600,
+      "city": "Tel Aviv",
+      "phoneNumber": "523500643",
+      "date": "2022-12-10T12:17:00.908Z"
+    },
+    {
+      "id": 2,
+      "name": "White Guitar",
+      "description": "New condition, bought two months ago due to moving to Europe. Bought for 600 white guitar comes with equipment - guitar stand + string tuner",
+      "imageSource": "https://img.yad2.co.il/Pic/202208/22/3_0/o/y2_1_03206_20220822170303.jpeg?l=5&c=1&w=1024&h=768.jpeg",
+      "price": 450,
+      "city": "Rishon Lezion",
+      "phoneNumber": "039416245",
+      "date": "2022-11-10T12:17:00.908Z"
+    },
+    {
+      "id": 3,
+      "name": "Sony PlayStation 4",
+      "description": "slim 1tb and two more black and one blue remotes. The condition of the product is like new and bought at the end of 2020, the product comes with a stand for PlayStation. Willing to compromise on price",
+      "imageSource": "https://img.yad2.co.il/Pic/202208/30/3_0/o/y2_1_06649_20220830002936.jpeg?l=5&c=1&w=1024&h=768.png",
+      "price": 1500,
+      "city": "Haifa",
+      "phoneNumber": "545633245",
+      "date": "2022-08-10T12:19:40.184Z"
+    },
+    {
+      "id": 4,
+      "name": "KIA EV6",
+      "description": "2rd hand, 100000 km, electric car, like new come and take",
+      "imageSource": "https://www.evm.co.il/wp-content/uploads/2022/03/Kia_EV6_2022_00007-780x470.webp",
+      "price": 120000,
+      "city": "Tel Mond",
+      "phoneNumber": 525044346,
+      "date": "2022-09-04T20:06:29.402Z"
+    },
+    {
+      "id": 5,
+      "name": "Leptop",
+      "description": "new computer . Selling because of a computer I bought a week ago",
+      "imageSource": "https://cashcow-cdn.azureedge.net/images/aa01ff0d-518f-4586-886b-025de1958e3d.webp",
+      "price": 1020,
+      "city": "modiin",
+      "phoneNumber": 507768222,
+      "date": "2022-08-14T16:59:16.495Z"
+    }
+  ]
+}

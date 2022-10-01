@@ -1,0 +1,7 @@
+<hr>
+<img [src]="product.imageSource" (click)="goToDetails(product.id)" alt="{{product.name}}" style="height: 200px;">
+<h2 highlightDirective>{{product.name}}</h2>
+<p>{{product.date | date:'dd/MM/yy hh:mm'}}</p>
+<h3>{{product.price | shekelCurrency}}</h3>
+<button (click)="goToDetails(product.id)" class="btn btn-primary">Details</button>
+<button (click)="Purchase(product.id)" class="btn btn-success">Purchase</button>

@@ -1,0 +1,12 @@
+<div>
+    <img [src]="product.imageSource" style="height: 200px;" alt="{{product.name}}" >
+    <h1>{{product.name}}</h1>
+    <p>{{product.description}}</p>
+    <h3>City: {{product.city}}</h3>
+    <h3>Price: {{product.price | shekelCurrency}}</h3>
+    <h3>Phone: {{product.phoneNumber}}</h3>
+    <h3>Publish Date: {{product.date | date:'dd/MM/yyyy, h:mm a'}}</h3>
+</div>
+<button (click)="Purchase(product.id)" class="btn btn-warning">Purchase</button>
+<br/><br/>
+<a routerLink="" routerLinkActive="active" class="btn btn-secondary">Back to Home Page</a>

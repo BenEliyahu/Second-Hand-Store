@@ -1,0 +1,59 @@
+<form [formGroup]="newItemForm">
+    <div>
+        Name: <input type="text" formControlName="name" />
+        <div class="error" *ngIf="newItemForm.controls['name']?.errors">
+            *Name field is required.
+            <br>
+            *Name must contain at least 5 letter.
+        </div>
+    </div>
+
+    <div>
+        Description: <input type="text" formControlName="description" />
+        <div class="error" *ngIf="newItemForm.controls['description']?.errors">
+            *Description field is required.
+            <br>
+            *Description must contain at least 5 letters.
+        </div>
+    </div>
+    
+    <div>
+        Image Source: <input type="text" formControlName="imageSource" />
+        <div class="error" *ngIf="newItemForm.controls['imageSource']?.errors">
+            *Image Source must start with http:// or https:// .
+            <br>
+            *Image Source must end with one of the formats: jpeg, jpg, png, gif .
+        </div>
+    </div>
+
+    <div>
+        Price: <input type="number" formControlName="price" />
+        <div class="error" *ngIf="newItemForm.controls['price']?.errors">
+            *Price field is required.
+            <br>
+            *Price must be at least 10₪.
+        </div>
+    </div>
+
+    <div>
+        City: <input type="text" formControlName="city" />
+        <div class="error" *ngIf="newItemForm.controls['city']?.errors">
+            *City field is required.
+            <br>
+            *Name must contain at least 2 letter.
+        </div>
+    </div>
+
+    <div>
+        Phone number: <input type="text" formControlName="phoneNumber" />
+        <div class="error" *ngIf="newItemForm.controls['phoneNumber']?.errors">
+            *Phone number field is required.
+            <br>
+            *Phone number must contain 9 numbers.
+            <br>
+            *Phone number must start with 5 or 03 .
+        </div>
+    </div>
+
+    <button (click)="saveForm()" [disabled]="newItemForm.invalid">Add</button>
+</form>
