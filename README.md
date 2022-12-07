@@ -1,27 +1,20 @@
-# Yad2-Project
+# Yad2 Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+RUN WITH 2 CMD: 
 
-## Development server
+1. NPM START (TO RUN THE APP) 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. NPM RUN SERVER (TO RUN THE PRODUCTS FROM DB JASON)
 
-## Code scaffolding
+## What can you do? 👈🏼
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Add a product
+2. You can see more details about the product
+3. You can navigate using the navbar
+4. You can buy the product
+5. You can filter by upload date or by price
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![2022-12-07 (13)](https://user-images.githubusercontent.com/108268890/206180120-e548f153-7c77-4267-88da-ae0a9820f3ab.png)
+![2022-12-07 (12)](https://user-images.githubusercontent.com/108268890/206180127-358244fa-168c-486a-a364-3f33ca6af094.png)
+![2022-12-07 (10)](https://user-images.githubusercontent.com/108268890/206180145-0c793b1c-dc13-43c5-b8d7-18b3c3a38814.png)
+![2022-12-07 (9)](https://user-images.githubusercontent.com/108268890/206180168-7cd0980d-1c38-4329-bc07-b373380b04b9.png)
